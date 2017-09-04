@@ -55,7 +55,7 @@ gem "react-rails", '~> 2.2.0'
 group :development do
   gem 'pre-commit', require: false
   gem 'rack-mini-profiler' # nice window showing request problems on all pages
-  gem 'better_errors'
+  gem 'better_errors', '~> 2.2.0'
   gem 'guard', require: false
   gem 'guard-livereload', require: false
   gem 'rack-livereload'
